@@ -1,0 +1,9 @@
+<person>
+  <name>Emily</name>
+  <age>22</age>
+  <friends>
+    <friend>Alice</friend>
+    <friend>Bob</friend>
+    <friend>David</friend>
+  </friends>
+</person>

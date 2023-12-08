@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="all test SUITE">
+
+    <parameter name="text" value="some text" />
+    <parameter name="expectedOutput" value="some text" />
+
+    <test name="Some test">
+        <packages>
+            <package name="lab8"/>
+        </packages>
+    </test>
+
+    <test name="Calc test with param">
+        <classes>
+            <class name="lab8.ParametrizedBuilderTest">
+                <methods>
+                    <include name="testConnectText" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
